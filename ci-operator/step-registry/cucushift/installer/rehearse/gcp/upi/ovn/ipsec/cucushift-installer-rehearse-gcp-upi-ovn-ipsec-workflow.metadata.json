@@ -1,0 +1,17 @@
+{
+	"path": "cucushift/installer/rehearse/gcp/upi/ovn/ipsec/cucushift-installer-rehearse-gcp-upi-ovn-ipsec-workflow.yaml",
+	"owners": {
+		"approvers": [
+			"jianlinliu",
+			"gpei",
+			"huiran0826",
+			"anuragthehatter"
+		],
+		"reviewers": [
+			"jianlinliu",
+			"gpei",
+			"huiran0826",
+			"anuragthehatter"
+		]
+	}
+}
