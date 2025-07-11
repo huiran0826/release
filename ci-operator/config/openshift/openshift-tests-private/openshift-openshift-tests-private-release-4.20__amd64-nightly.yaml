@@ -2840,6 +2840,8 @@ tests:
   cron: 44 17 26 * *
   steps:
     cluster_profile: gcp-qe
+    env:
+      IPSEC_RHCOS_LAYERED_IMAGE: quay.io/pepalani/ipsec-rhcos-layered-image:4.20.0-0.nightly-2025-05-28-190420 
     test:
     - ref: ovn-conf-ipsec-user-mc
     workflow: cucushift-installer-rehearse-gcp-ipi-ovn-ipsec
