@@ -2841,7 +2841,6 @@ tests:
   steps:
     cluster_profile: gcp-qe
     test:
-    - ref: wait
     - ref: ovn-conf-ipsec-user-mc
     workflow: cucushift-installer-rehearse-gcp-ipi-ovn-ipsec
 - as: gcp-ipi-ovn-winc-f7
