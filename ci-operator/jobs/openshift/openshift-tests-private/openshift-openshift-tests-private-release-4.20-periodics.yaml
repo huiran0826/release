@@ -33532,7 +33532,7 @@ periodics:
         secretName: result-aggregator
 - agent: kubernetes
   cluster: build04
-  cron: 44 17 26 * *
+  cron: '@yearly'
   decorate: true
   decoration_config:
     skip_cloning: true
